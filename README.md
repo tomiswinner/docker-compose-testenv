@@ -1,2 +1,3 @@
-- `docker-compose up -d` にて、バックグラウンド起動
-- `docker-compose exec hello bash` にて、コンテナへログイン
+- `docker-compose run --rm hello bash` にて bash 起動 & 実行終了時に自動削除
+  - `docker-compose up -d` にて、バックグラウンド起動
+  - `docker-compose exec hello bash` にて、コンテナへログイン

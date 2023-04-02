@@ -4,3 +4,6 @@ services:
     image: ubuntu:latest
     tty: true
     stdin_open: true
+    environment:
+      - SAMPLE=${SAMPLE}
+    
