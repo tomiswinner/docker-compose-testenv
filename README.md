@@ -1,0 +1,2 @@
+- `docker-compose up -d` にて、バックグラウンド起動
+- `docker-compose exec hello bash` にて、コンテナへログイン
